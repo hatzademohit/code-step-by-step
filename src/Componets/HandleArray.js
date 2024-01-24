@@ -26,7 +26,7 @@ export default function HandleArray() {
         </thead>
         <tbody>
             {fullinfo.map((data)=> (
-                <tr>
+                <tr key={data.name}>
                     <td>{data.name}</td> 
                     <td>{data.email}</td> 
                     <td>{data.contact}</td> 
