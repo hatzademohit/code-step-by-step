@@ -13,10 +13,16 @@ export default function UseEffect() {
         {count}
       </p>
       <Button
-        className="btn btn-sm btnsecondary"
+        className="btn btn-sm btn-secondary me-2"
         onClick={() => setCount(count + 1)}
       >
         Count Increment
+      </Button>
+      <Button
+        className="btn btn-sm btn-secondary"
+        onClick={() => setCount(count - 1)}
+      >
+        Count Decrement
       </Button>
     </>
   );

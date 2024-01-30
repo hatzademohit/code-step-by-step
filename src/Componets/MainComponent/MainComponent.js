@@ -3,7 +3,7 @@ import { Col, Card } from "react-bootstrap";
 
 export default function MainComponent(props) {
   return (
-    <Col xl={3} lg={4} md={6} xs={12}>
+    <Col xl={props.xl} lg={props.lg} md={props.md} xs={props.xs}>
       <Card>
         <Card.Header>
           <Card.Title className="h6">{props.title}</Card.Title>
