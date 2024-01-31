@@ -16,6 +16,8 @@ import UseEffect from './Componets/Hooks/UseEffect';
 import UseEffectwithSP from './Componets/Hooks/UseEffectwithSP';
 import HandleArray from './Componets/HandleArray';
 import NestedArray from './Componets/NestedArray';
+import UseMemo from './Componets/Hooks/UseMemo';
+import UseRef from './Componets/Hooks/UseRef';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <MainComponent xl="3" lg="4" md="6" xs="12" title="Hooks (useEffect with useSate and props)" component={<UseEffectwithSP />} />
         <MainComponent xl="3" lg="4" md="6" xs="12" title="Handle array (Using map method)" component={<HandleArray />} />
         <MainComponent xl="9" lg="12" md="12" xs="12" title="Nested Array (Using map method)" component={<NestedArray />} />
+        <MainComponent xl="3" lg="4" md="6" xs="12" title="Use Memo Hook" component={<UseMemo />} />
+        <MainComponent xl="3" lg="4" md="6" xs="12" title="Use Ref Hook" component={<UseRef />} />
 
       </Row>
     </div>
