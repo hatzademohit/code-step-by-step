@@ -1,3 +1,19 @@
 p{
     margin-bottom: 8px;
 }
+.table-rsponsive {
+    max-height: calc(100vh - 150px);
+    overflow: auto;
+}
+.table-rsponsive thead{
+    position: sticky;
+    top: 0;
+}
+.card-body{
+    position: relative;
+}
+.position_abs {
+    position: absolute;
+    top: -34px;
+    right: 16px;
+}
