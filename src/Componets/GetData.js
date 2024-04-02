@@ -17,6 +17,7 @@ export default function GetData() {
         onClick={() => setPrint(true)}
       >
         Get data
+        Get data
       </Button>
     </>
   );

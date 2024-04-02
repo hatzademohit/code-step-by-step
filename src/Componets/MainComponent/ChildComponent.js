@@ -18,6 +18,9 @@ import UseRef from '../Hooks/UseRef';
 import ControlledComponent from '../ControlledComponent';
 import UncontrolledComponent from '../UncontrolledComponent';
 import UpdateData from '../UpdateData'
+import PreviousState from '../Hooks/PreviousState'
+import PreviousProps from '../Hooks/PreviousProps';
+import SateObjetWithHook from '../Hooks/SateObjetWithHook';
 
 export default function ChildComponent() {
   return (
@@ -40,6 +43,9 @@ export default function ChildComponent() {
         <MainComponent xl="3" lg="4" md="6" xs="12" title="Use Ref and Forward Hook" component={<UseRef />} />
         <MainComponent xl="3" lg="4" md="6" xs="12" title="Controlled Component" component={<ControlledComponent />} />
         <MainComponent xl="3" lg="4" md="6" xs="12" title="Uncontrolled Component" component={<UncontrolledComponent />} />
+        <MainComponent xl="3" lg="4" md="6" xs="12" title="Previous State" component={<PreviousState />} />
+        <MainComponent xl="3" lg="4" md="6" xs="12" title="Previous Props" component={<PreviousProps />} />
+        <MainComponent xl="3" lg="4" md="6" xs="12" title="Sate with objet" component={<SateObjetWithHook />} />
       </Row>
     </Container>
   )
