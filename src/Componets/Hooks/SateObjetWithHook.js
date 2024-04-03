@@ -21,7 +21,7 @@ export default function SateObjetWithHook() {
             type="text"
             placeholder="Enter Last Name"
             value={data.lastName}
-            // onChange={(e)=> setData({lastName: e.target.value, name: data.name})} // First Methid
+            // onChange={(e)=> setData({lastName: e.target.value, name: data.name})} // First Method
             onChange={(e)=> setData({...data, lastName: e.target.value})} // Second Method
         />
       </Form.Group>
